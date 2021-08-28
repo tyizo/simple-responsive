@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+  .content {
+    width: 300px !important;
+  }
+  .hero-text {
+    font-size: 20px !important;
+    .fa-sass {
+      font-size: 25px !important;
+    }
+  }
+  .image {
+    width: 70% !important;
+  }
+}

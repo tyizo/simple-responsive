@@ -1,0 +1,58 @@
+.bodyContainer {
+  color: var(--font-color);
+  text-align: center;
+  .hero-text {
+    padding: 20px 20px;
+    text-decoration: underline vars.$sass;
+    .fa-sass {
+      font-size: 40px;
+      color: vars.$sass;
+    }
+  }
+  h2 {
+    padding: 10px 10px;
+  }
+  .image {
+    border-radius: 12px;
+    width: 335px;
+  }
+  span {
+    font-size: 13px;
+  }
+  .content {
+    padding-top: 20px;
+    width: 600px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+  }
+  .buttons {
+    display: inline-block;
+    .btn {
+      margin: vars.$buttonsMargin;
+      padding: vars.$buttonsMargin;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      color: var(--bg-color);
+    }
+    .btn-1 {
+      background-color: vars.$btnOne;
+    }
+    .btn-2 {
+      background-color: vars.$btnTwo;
+    }
+    .btn-3 {
+      background-color: vars.$btnThree;
+    }
+    .btn-4 {
+      background-color: vars.$btnFour;
+    }
+  }
+}
+
+.line {
+  background-color: #ddd;
+  width: 470px;
+  margin: 0 auto;
+  height: 1px;
+}
